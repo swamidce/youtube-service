@@ -1,12 +1,12 @@
-package apikeys
+package add_key
 
 import (
 	"context"
 	"errors"
 	"time"
 
-	"github.com/youtube-service/internal/configs"
 	log "github.com/sirupsen/logrus"
+	"github.com/youtube-service/internal/configs"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"

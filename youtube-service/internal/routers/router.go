@@ -1,10 +1,9 @@
-package router
+package routers
 
 import (
 	fiber "github.com/gofiber/fiber/v2"
 	"github.com/youtube-service/internal/handlers"
 )
-
 
 // SetRoutes initializes middlewares and creates
 // routes for all the endpoints
